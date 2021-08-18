@@ -15,8 +15,11 @@ doi: https://doi.org/10.1101/2021.06.08.447615
 The file structure are as follows:
 
 ROSMAP_trained_model -- deep learning (supervised classification) of the neuropathologically confirmed AD and control subjects (n = 234), and unsupervised dimensionality reduction (UMAP) of the whole cohort subjects (n = 634), based on the RNAseq data from DLPFC tissues of ROSMAP cohort (syn8456629). 
+          
           DeepType: representative training process for AD + control groups (5 fold cross validation)
+          
           UMAP: intermediate layer manifold calculation for the whole cohort, dimensionality reduction of the manifold for a 3D tranjectory, and SI (pseudotime) calculation
+          
           IndexGenes: index gene identification
 
 MAYO -- SI calculation based on ROSMAP trained model for two brain regions (TCX and CER, syn8466812). Obtaining manifold representation by forward pass of the trained network, carrying out the UMAP transformation of the existing embedding model from ROSMAP to get the trajectory and SI.
