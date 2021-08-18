@@ -12,7 +12,7 @@ Qi Wang, Benjamin Readhead, Kewei Chen, Yi Su, Eric M. Reiman, Joel T. Dudley
 doi: https://doi.org/10.1101/2021.06.08.447615
 
 
-The file structure are as follows:
+The file structures are as follows:
 
 ROSMAP_trained_model -- deep learning (supervised classification) of the neuropathologically confirmed AD and control subjects (n = 234), and unsupervised dimensionality reduction (UMAP) of the whole cohort subjects (n = 634), based on the RNAseq data from DLPFC tissues of ROSMAP cohort (syn8456629). 
           
