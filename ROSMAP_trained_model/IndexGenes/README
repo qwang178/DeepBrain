@@ -1,0 +1,2 @@
+weight.m        calculation of weight from each gene based on the first to second layer transformation (MATLAB code)
+histogram.R     histogram plot for the weight distribution of each gene (R code)

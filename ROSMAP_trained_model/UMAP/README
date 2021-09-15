@@ -1,0 +1,2 @@
+manifold.m      obtain manifold representation for the intermediate layer (matlab code)
+UMAP.R          unsupervised dimensionality reduction (PCA + UMAP), pseudotime(SI) calculation for 3D UMAP trajectory (R code)

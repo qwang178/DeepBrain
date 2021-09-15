@@ -1,0 +1,945 @@
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:521: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/packages/7x/python/3.6.4/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Supervised training...
+2021-08-18 11:11:26.892909: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+0.0
+Train step 1 minibatch loss: 0.66521126 penalty:3521.8853 accuracy: 0.6474359
+accuracy on validation: 0.64102566
+0.0002454778212441293
+Train step 20 minibatch loss: 1.4945116 penalty:3477.8179 accuracy: 0.6474359
+accuracy on validation: 0.64102566
+0.0004876182763177548
+Train step 40 minibatch loss: 2.2466364 penalty:3338.3723 accuracy: 0.6474359
+accuracy on validation: 0.64102566
+0.0007141423633978659
+Train step 60 minibatch loss: 2.83546 penalty:3129.066 accuracy: 0.6474359
+accuracy on validation: 0.64102566
+0.0009260572291392206
+Train step 80 minibatch loss: 3.2472992 penalty:2875.3792 accuracy: 0.6858974
+accuracy on validation: 0.6666667
+0.0011243050662722953
+Train step 100 minibatch loss: 3.488133 penalty:2596.7737 accuracy: 0.71153843
+accuracy on validation: 0.6923077
+0.001309767302677697
+Train step 120 minibatch loss: 3.5757153 penalty:2307.378 accuracy: 0.7307692
+accuracy on validation: 0.6923077
+0.0014832685202945358
+Train step 140 minibatch loss: 3.532435 penalty:2017.6788 accuracy: 0.75
+accuracy on validation: 0.6923077
+0.0016455801212865793
+Train step 160 minibatch loss: 3.3830657 penalty:1735.481 accuracy: 0.775641
+accuracy on validation: 0.71794873
+0.0017974237577663007
+Train step 180 minibatch loss: 3.1535246 penalty:1466.644 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.0019394745403256816
+Train step 200 minibatch loss: 2.8689396 penalty:1215.7177 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.00207236403963919
+Train step 220 minibatch loss: 2.5522573 penalty:986.3632 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.002196683094484332
+Train step 240 minibatch loss: 2.2239518 penalty:780.9166 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.0023129844386644907
+Train step 260 minibatch loss: 1.9016103 penalty:600.8905 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.002421785158513596
+Train step 280 minibatch loss: 1.5994306 penalty:446.5581 accuracy: 0.78205127
+accuracy on validation: 0.74358976
+0.0025235689919089013
+Train step 300 minibatch loss: 1.3286792 penalty:317.84735 accuracy: 0.78846157
+accuracy on validation: 0.74358976
+0.0026187884790135037
+Train step 320 minibatch loss: 1.1016033 penalty:215.92386 accuracy: 0.7692308
+accuracy on validation: 0.74358976
+0.0027078669743109884
+Train step 340 minibatch loss: 0.9276389 penalty:141.14165 accuracy: 0.7692308
+accuracy on validation: 0.71794873
+0.002791200528877891
+Train step 360 minibatch loss: 0.80696416 penalty:90.97837 accuracy: 0.7692308
+accuracy on validation: 0.71794873
+0.0028691596512627413
+Train step 380 minibatch loss: 0.73146963 penalty:60.30452 accuracy: 0.7692308
+accuracy on validation: 0.71794873
+0.0029420909548007043
+Train step 400 minibatch loss: 0.68390703 penalty:42.375305 accuracy: 0.73717946
+accuracy on validation: 0.74358976
+0.0030103186986879297
+Train step 420 minibatch loss: 0.65701216 penalty:32.402817 accuracy: 0.71153843
+accuracy on validation: 0.74358976
+0.0030741462296673765
+Train step 440 minibatch loss: 0.64152396 penalty:27.149569 accuracy: 0.7051282
+accuracy on validation: 0.74358976
+0.003133857330735972
+Train step 460 minibatch loss: 0.631889 penalty:24.471804 accuracy: 0.7307692
+accuracy on validation: 0.74358976
+0.0031897174828695715
+Train step 480 minibatch loss: 0.6256641 penalty:23.140566 accuracy: 0.75
+accuracy on validation: 0.74358976
+0.0032419750453754827
+Train step 500 minibatch loss: 0.6232928 penalty:22.86473 accuracy: 0.76282054
+accuracy on validation: 0.74358976
+0.003290862360120489
+Train step 520 minibatch loss: 0.6203722 penalty:22.504429 accuracy: 0.76282054
+accuracy on validation: 0.74358976
+0.0033365967845438815
+Train step 540 minibatch loss: 0.61492383 penalty:21.633451 accuracy: 0.7307692
+accuracy on validation: 0.74358976
+0.0033793816580483657
+Train step 560 minibatch loss: 0.61178887 penalty:21.47067 accuracy: 0.75
+accuracy on validation: 0.74358976
+0.003419407206065505
+Train step 580 minibatch loss: 0.6139195 penalty:22.48797 accuracy: 0.76282054
+accuracy on validation: 0.7692308
+0.0034568513858152573
+Train step 600 minibatch loss: 0.6085253 penalty:21.899027 accuracy: 0.75641024
+accuracy on validation: 0.7692308
+0.00349188067751993
+Train step 620 minibatch loss: 0.6094147 penalty:22.192556 accuracy: 0.73717946
+accuracy on validation: 0.7692308
+0.0035246508245903615
+Train step 640 minibatch loss: 0.60579115 penalty:21.860928 accuracy: 0.75
+accuracy on validation: 0.7692308
+0.0035553075260752634
+Train step 660 minibatch loss: 0.6031341 penalty:22.20393 accuracy: 0.76282054
+accuracy on validation: 0.7692308
+0.0035839870844524184
+Train step 680 minibatch loss: 0.60396004 penalty:22.51715 accuracy: 0.7692308
+accuracy on validation: 0.7692308
+0.003610817011641869
+Train step 700 minibatch loss: 0.5997661 penalty:22.246124 accuracy: 0.76282054
+accuracy on validation: 0.7692308
+0.003635916595935489
+Train step 720 minibatch loss: 0.59840447 penalty:22.37866 accuracy: 0.75641024
+accuracy on validation: 0.7692308
+0.0036593974323635616
+Train step 740 minibatch loss: 0.5995129 penalty:22.498484 accuracy: 0.75
+accuracy on validation: 0.7948718
+0.003681363918856408
+Train step 760 minibatch loss: 0.5946935 penalty:22.368065 accuracy: 0.76282054
+accuracy on validation: 0.7948718
+0.0037019137204070685
+Train step 780 minibatch loss: 0.59447944 penalty:22.840712 accuracy: 0.775641
+accuracy on validation: 0.7948718
+0.0037211382032987248
+Train step 800 minibatch loss: 0.59432435 penalty:23.02767 accuracy: 0.7692308
+accuracy on validation: 0.7948718
+0.00373912284132749
+Train step 820 minibatch loss: 0.589408 penalty:22.776625 accuracy: 0.7692308
+accuracy on validation: 0.7948718
+0.0037559475958266653
+Train step 840 minibatch loss: 0.5917588 penalty:23.032528 accuracy: 0.75641024
+accuracy on validation: 0.7948718
+0.0037716872711820856
+Train step 860 minibatch loss: 0.58638424 penalty:22.842876 accuracy: 0.75641024
+accuracy on validation: 0.7948718
+0.0037864118474192116
+Train step 880 minibatch loss: 0.58716464 penalty:23.368233 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.0038001867913406736
+Train step 900 minibatch loss: 0.5836308 penalty:23.21045 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.00381307334759762
+Train step 920 minibatch loss: 0.5848985 penalty:23.504498 accuracy: 0.76282054
+accuracy on validation: 0.7948718
+0.003825128810988996
+Train step 940 minibatch loss: 0.58103293 penalty:23.329939 accuracy: 0.76282054
+accuracy on validation: 0.7948718
+0.003836406781199422
+Train step 960 minibatch loss: 0.5820807 penalty:23.857174 accuracy: 0.76282054
+accuracy on validation: 0.7948718
+0.003846957401108253
+Train step 980 minibatch loss: 0.57687014 penalty:23.595934 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003856827579729379
+Train step 1000 minibatch loss: 0.57728547 penalty:23.685587 accuracy: 0.7692308
+accuracy on validation: 0.7948718
+0.0038660612007729513
+Train step 1020 minibatch loss: 0.57681197 penalty:24.07107 accuracy: 0.7692308
+accuracy on validation: 0.7948718
+0.003874699317756349
+Train step 1040 minibatch loss: 0.5752084 penalty:23.952885 accuracy: 0.775641
+accuracy on validation: 0.7948718
+0.003882780336531837
+Train step 1060 minibatch loss: 0.5734663 penalty:24.252722 accuracy: 0.7692308
+accuracy on validation: 0.7948718
+0.0038903401860424782
+Train step 1080 minibatch loss: 0.5699296 penalty:24.03448 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.0038974124780654703
+Train step 1100 minibatch loss: 0.57060266 penalty:24.531364 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003904028656653163
+Train step 1120 minibatch loss: 0.56704557 penalty:24.325478 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003910218137936167
+Train step 1140 minibatch loss: 0.56540245 penalty:24.575373 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003916008440910139
+Train step 1160 minibatch loss: 0.5637641 penalty:24.597452 accuracy: 0.78846157
+accuracy on validation: 0.7948718
+0.003921425309787739
+Train step 1180 minibatch loss: 0.5624668 penalty:24.818079 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003926492828459734
+Train step 1200 minibatch loss: 0.56083286 penalty:24.889694 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003931233527574164
+Train step 1220 minibatch loss: 0.55968124 penalty:25.086365 accuracy: 0.78846157
+accuracy on validation: 0.7948718
+0.003935668484709646
+Train step 1240 minibatch loss: 0.55852926 penalty:25.22848 accuracy: 0.78846157
+accuracy on validation: 0.7948718
+0.003939817418088206
+Train step 1260 minibatch loss: 0.55826104 penalty:25.375946 accuracy: 0.78205127
+accuracy on validation: 0.7948718
+0.003943698774244279
+Train step 1280 minibatch loss: 0.55755097 penalty:25.65602 accuracy: 0.78846157
+accuracy on validation: 0.7948718
+0.0039473298100396815
+Train step 1300 minibatch loss: 0.5577847 penalty:25.688505 accuracy: 0.775641
+accuracy on validation: 0.82051283
+0.003950726669389179
+Train step 1320 minibatch loss: 0.55818707 penalty:26.040033 accuracy: 0.7948718
+accuracy on validation: 0.82051283
+0.003953904455037805
+Train step 1340 minibatch loss: 0.557406 penalty:26.018291 accuracy: 0.775641
+accuracy on validation: 0.82051283
+0.003956877295709028
+Train step 1360 minibatch loss: 0.55631423 penalty:26.269703 accuracy: 0.80128205
+accuracy on validation: 0.82051283
+0.003959658408922343
+Train step 1380 minibatch loss: 0.5544634 penalty:26.1863 accuracy: 0.775641
+accuracy on validation: 0.82051283
+0.004
+Train step 1400 minibatch loss: 0.5517265 penalty:26.298271 accuracy: 0.7948718
+accuracy on validation: 0.7948718
+0.004
+Train step 1420 minibatch loss: 0.54851246 penalty:26.191189 accuracy: 0.78846157
+accuracy on validation: 0.7948718
+0.004
+Train step 1440 minibatch loss: 0.54613835 penalty:26.385458 accuracy: 0.8269231
+accuracy on validation: 0.7948718
+0.004
+Train step 1460 minibatch loss: 0.54413605 penalty:26.443844 accuracy: 0.8076923
+accuracy on validation: 0.7948718
+0.004
+Train step 1480 minibatch loss: 0.54286975 penalty:26.628994 accuracy: 0.8076923
+accuracy on validation: 0.7948718
+0.004
+Train step 1500 minibatch loss: 0.5431311 penalty:26.90462 accuracy: 0.8076923
+accuracy on validation: 0.7948718
+Supervised training ends, begin supervised-unsupervised training...
+
+Training circle: 0
+Train step 1 minibatch loss: 0.7493845 penalty: 26.90462 accuracy: 0.775641 Kmeans: 0.08433293
+accuracy on validation: 0.5897436
+Train step 20 minibatch loss: 1.5195767 penalty: 34.063457 accuracy: 0.64102566 Kmeans: 0.40651125
+accuracy on validation: 0.71794873
+Train step 40 minibatch loss: 0.79852563 penalty: 31.198622 accuracy: 0.76282054 Kmeans: 0.09643083
+accuracy on validation: 0.82051283
+Train step 60 minibatch loss: 0.7388701 penalty: 29.835794 accuracy: 0.8076923 Kmeans: 0.07256761
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.72536 penalty: 29.60657 accuracy: 0.7948718 Kmeans: 0.06725001
+accuracy on validation: 0.82051283
+Train step 100 minibatch loss: 0.7208617 penalty: 29.346655 accuracy: 0.7948718 Kmeans: 0.06574176
+accuracy on validation: 0.82051283
+
+Training circle: 1
+Train step 1 minibatch loss: 0.71451914 penalty: 29.346718 accuracy: 0.7948718 Kmeans: 0.06257273
+accuracy on validation: 0.82051283
+Train step 20 minibatch loss: 0.7095902 penalty: 30.018753 accuracy: 0.7948718 Kmeans: 0.058618214
+accuracy on validation: 0.82051283
+Train step 40 minibatch loss: 0.7063031 penalty: 30.446062 accuracy: 0.80128205 Kmeans: 0.05596699
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.7039541 penalty: 30.496649 accuracy: 0.80128205 Kmeans: 0.05471117
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.70187044 penalty: 30.444021 accuracy: 0.80128205 Kmeans: 0.053858783
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.69992197 penalty: 30.379578 accuracy: 0.80128205 Kmeans: 0.053114574
+accuracy on validation: 0.84615386
+
+Training circle: 2
+Train step 1 minibatch loss: 0.6978341 penalty: 30.376472 accuracy: 0.80128205 Kmeans: 0.05208234
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.6953103 penalty: 30.601824 accuracy: 0.80128205 Kmeans: 0.05023736
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.69304174 penalty: 30.738386 accuracy: 0.80128205 Kmeans: 0.048710104
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.69103086 penalty: 30.687254 accuracy: 0.80128205 Kmeans: 0.047821578
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.6891044 penalty: 30.573715 accuracy: 0.80128205 Kmeans: 0.047153253
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.6872374 penalty: 30.45633 accuracy: 0.80128205 Kmeans: 0.046538763
+accuracy on validation: 0.84615386
+
+Training circle: 3
+Train step 1 minibatch loss: 0.6864408 penalty: 30.45077 accuracy: 0.80128205 Kmeans: 0.04615643
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.6843735 penalty: 30.494068 accuracy: 0.8076923 Kmeans: 0.044971686
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.6823482 penalty: 30.490294 accuracy: 0.8141026 Kmeans: 0.0439197
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.68043137 penalty: 30.377024 accuracy: 0.8141026 Kmeans: 0.04323554
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.6785677 penalty: 30.22756 accuracy: 0.8141026 Kmeans: 0.04269275
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.67675036 penalty: 30.07511 accuracy: 0.8141026 Kmeans: 0.0421924
+accuracy on validation: 0.84615386
+
+Training circle: 4
+Train step 1 minibatch loss: 0.6762673 penalty: 30.066893 accuracy: 0.8141026 Kmeans: 0.041972894
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.6743785 penalty: 30.027496 accuracy: 0.82051283 Kmeans: 0.041098315
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.672506 penalty: 29.959791 accuracy: 0.82051283 Kmeans: 0.040307693
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.67069995 penalty: 29.820448 accuracy: 0.82051283 Kmeans: 0.03976619
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.6689394 penalty: 29.657406 accuracy: 0.82051283 Kmeans: 0.039333735
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.6671406 penalty: 29.489937 accuracy: 0.82051283 Kmeans: 0.038903486
+accuracy on validation: 0.84615386
+
+Training circle: 5
+Train step 1 minibatch loss: 0.66678643 penalty: 29.4792 accuracy: 0.82051283 Kmeans: 0.03875488
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.66477305 penalty: 29.508032 accuracy: 0.8141026 Kmeans: 0.037675254
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.66287494 penalty: 29.506796 accuracy: 0.8141026 Kmeans: 0.03675355
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.6610199 penalty: 29.392149 accuracy: 0.8141026 Kmeans: 0.0361919
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.6592539 penalty: 29.241783 accuracy: 0.8141026 Kmeans: 0.03579873
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.6574358 penalty: 29.076847 accuracy: 0.82051283 Kmeans: 0.03542652
+accuracy on validation: 0.84615386
+
+Training circle: 6
+Train step 1 minibatch loss: 0.6569526 penalty: 29.064693 accuracy: 0.82051283 Kmeans: 0.03521932
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.65504396 penalty: 29.035324 accuracy: 0.8141026 Kmeans: 0.034416128
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.65317774 penalty: 28.996912 accuracy: 0.82051283 Kmeans: 0.033678144
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.6512523 penalty: 28.876738 accuracy: 0.82051283 Kmeans: 0.03314245
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.649575 penalty: 28.747047 accuracy: 0.82051283 Kmeans: 0.03279305
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.6477937 penalty: 28.593218 accuracy: 0.8269231 Kmeans: 0.032464597
+accuracy on validation: 0.8717949
+
+Training circle: 7
+Train step 1 minibatch loss: 0.64739084 penalty: 28.58564 accuracy: 0.8269231 Kmeans: 0.032291755
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.6456235 penalty: 28.482674 accuracy: 0.82051283 Kmeans: 0.031780396
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.64391154 penalty: 28.379383 accuracy: 0.8269231 Kmeans: 0.03130556
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.6421803 penalty: 28.244379 accuracy: 0.8333333 Kmeans: 0.030930515
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.6402639 penalty: 28.075651 accuracy: 0.8333333 Kmeans: 0.030563392
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.6385097 penalty: 27.91105 accuracy: 0.8333333 Kmeans: 0.030284744
+accuracy on validation: 0.8717949
+
+Training circle: 8
+Train step 1 minibatch loss: 0.6382812 penalty: 27.910337 accuracy: 0.8333333 Kmeans: 0.030186981
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.63665074 penalty: 27.796068 accuracy: 0.8333333 Kmeans: 0.029809842
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.634925 penalty: 27.670048 accuracy: 0.8269231 Kmeans: 0.029414061
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.63309586 penalty: 27.510458 accuracy: 0.8269231 Kmeans: 0.029072877
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.63149923 penalty: 27.367807 accuracy: 0.8269231 Kmeans: 0.028848609
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.6298661 penalty: 27.219341 accuracy: 0.8333333 Kmeans: 0.028632984
+accuracy on validation: 0.8717949
+
+Training circle: 9
+Train step 1 minibatch loss: 0.6295111 penalty: 27.207684 accuracy: 0.8333333 Kmeans: 0.028495502
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.6279337 penalty: 27.081678 accuracy: 0.8397436 Kmeans: 0.028200988
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.6262815 penalty: 26.952993 accuracy: 0.8397436 Kmeans: 0.02787826
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.6246842 penalty: 26.822393 accuracy: 0.8397436 Kmeans: 0.027627248
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.6229603 penalty: 26.65952 accuracy: 0.84615386 Kmeans: 0.027397584
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.6211674 penalty: 26.506714 accuracy: 0.84615386 Kmeans: 0.027139673
+accuracy on validation: 0.8717949
+
+Training circle: 10
+Train step 1 minibatch loss: 0.6209215 penalty: 26.494291 accuracy: 0.84615386 Kmeans: 0.02704969
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.6195359 penalty: 26.392302 accuracy: 0.8397436 Kmeans: 0.026848983
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.6180166 penalty: 26.285952 accuracy: 0.8397436 Kmeans: 0.026566854
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.6169996 penalty: 26.170506 accuracy: 0.8397436 Kmeans: 0.02653943
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.6155778 penalty: 26.073814 accuracy: 0.8333333 Kmeans: 0.026348948
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.61307645 penalty: 25.930363 accuracy: 0.84615386 Kmeans: 0.025899772
+accuracy on validation: 0.8717949
+
+Training circle: 11
+Train step 1 minibatch loss: 0.61276317 penalty: 25.905975 accuracy: 0.8397436 Kmeans: 0.025768925
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.61171126 penalty: 25.818842 accuracy: 0.8525641 Kmeans: 0.025760561
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.60980904 penalty: 25.72283 accuracy: 0.85897434 Kmeans: 0.02534075
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.6152239 penalty: 25.872307 accuracy: 0.8076923 Kmeans: 0.027259216
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.61403507 penalty: 25.77314 accuracy: 0.8076923 Kmeans: 0.027157588
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.60520804 penalty: 25.481173 accuracy: 0.84615386 Kmeans: 0.024672655
+accuracy on validation: 0.8717949
+
+Training circle: 12
+Train step 1 minibatch loss: 0.6050707 penalty: 25.474535 accuracy: 0.8525641 Kmeans: 0.02461375
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.6093488 penalty: 25.646763 accuracy: 0.82051283 Kmeans: 0.02623853
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.6145313 penalty: 25.676764 accuracy: 0.7948718 Kmeans: 0.028139528
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.60460865 penalty: 25.591322 accuracy: 0.86538464 Kmeans: 0.025215803
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.61488986 penalty: 25.525475 accuracy: 0.88461536 Kmeans: 0.029490704
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.60043347 penalty: 25.378885 accuracy: 0.84615386 Kmeans: 0.024371091
+accuracy on validation: 0.8717949
+
+Training circle: 13
+Train step 1 minibatch loss: 0.5970504 penalty: 25.31862 accuracy: 0.8525641 Kmeans: 0.023235407
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.60901326 penalty: 25.565681 accuracy: 0.80128205 Kmeans: 0.027479826
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.60310066 penalty: 25.51529 accuracy: 0.8076923 Kmeans: 0.025651911
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.621104 penalty: 25.695587 accuracy: 0.88461536 Kmeans: 0.03287951
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.59282136 penalty: 25.265436 accuracy: 0.8782051 Kmeans: 0.02316092
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.6128065 penalty: 25.609804 accuracy: 0.80128205 Kmeans: 0.030027393
+accuracy on validation: 0.8717949
+
+Training circle: 14
+Train step 1 minibatch loss: 0.5942749 penalty: 25.521215 accuracy: 0.89102566 Kmeans: 0.022348685
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.59448457 penalty: 25.57167 accuracy: 0.8974359 Kmeans: 0.023459032
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5983067 penalty: 25.423393 accuracy: 0.8141026 Kmeans: 0.025703449
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.591845 penalty: 25.331656 accuracy: 0.84615386 Kmeans: 0.023802234
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5838026 penalty: 25.26202 accuracy: 0.85897434 Kmeans: 0.021427264
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.60436004 penalty: 25.493093 accuracy: 0.88461536 Kmeans: 0.029077
+accuracy on validation: 0.8717949
+
+Training circle: 15
+Train step 1 minibatch loss: 0.5884923 penalty: 25.512274 accuracy: 0.80128205 Kmeans: 0.020633515
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5833217 penalty: 25.271667 accuracy: 0.86538464 Kmeans: 0.022246893
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5855395 penalty: 25.358774 accuracy: 0.90384614 Kmeans: 0.023219524
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.59286267 penalty: 25.451237 accuracy: 0.90384614 Kmeans: 0.02592059
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5770741 penalty: 25.18509 accuracy: 0.8782051 Kmeans: 0.020741781
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.59294695 penalty: 25.507687 accuracy: 0.8269231 Kmeans: 0.026036114
+accuracy on validation: 0.8717949
+
+Training circle: 16
+Train step 1 minibatch loss: 0.57894206 penalty: 25.432798 accuracy: 0.90384614 Kmeans: 0.020490453
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5889513 penalty: 25.916182 accuracy: 0.89102566 Kmeans: 0.024194585
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5785764 penalty: 25.778063 accuracy: 0.86538464 Kmeans: 0.02185851
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.5718174 penalty: 25.762918 accuracy: 0.8782051 Kmeans: 0.019951597
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.58154154 penalty: 26.087759 accuracy: 0.90384614 Kmeans: 0.02367198
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5757409 penalty: 26.079885 accuracy: 0.9102564 Kmeans: 0.022048278
+accuracy on validation: 0.8717949
+
+Training circle: 17
+Train step 1 minibatch loss: 0.5716967 penalty: 26.129883 accuracy: 0.85897434 Kmeans: 0.018940393
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.59432244 penalty: 26.476658 accuracy: 0.80128205 Kmeans: 0.026325226
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5809561 penalty: 26.248539 accuracy: 0.84615386 Kmeans: 0.024033105
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.56474614 penalty: 26.19818 accuracy: 0.88461536 Kmeans: 0.019321961
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5860787 penalty: 26.395498 accuracy: 0.9102564 Kmeans: 0.027078327
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5698537 penalty: 26.405378 accuracy: 0.8717949 Kmeans: 0.021475434
+accuracy on validation: 0.8717949
+
+Training circle: 18
+Train step 1 minibatch loss: 0.5623411 penalty: 26.379337 accuracy: 0.9166667 Kmeans: 0.01883271
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5611192 penalty: 26.268324 accuracy: 0.88461536 Kmeans: 0.019107962
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5740948 penalty: 26.43862 accuracy: 0.85897434 Kmeans: 0.023608787
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.5646582 penalty: 26.38033 accuracy: 0.8717949 Kmeans: 0.020755284
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5870913 penalty: 26.706444 accuracy: 0.9102564 Kmeans: 0.028974656
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5563255 penalty: 26.33922 accuracy: 0.90384614 Kmeans: 0.01887828
+accuracy on validation: 0.8717949
+
+Training circle: 19
+Train step 1 minibatch loss: 0.55582047 penalty: 26.321993 accuracy: 0.89102566 Kmeans: 0.018369703
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.57972056 penalty: 26.686592 accuracy: 0.9166667 Kmeans: 0.027850885
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.56874853 penalty: 26.723238 accuracy: 0.85897434 Kmeans: 0.023301871
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.55579895 penalty: 26.503624 accuracy: 0.89102566 Kmeans: 0.019528536
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.58315647 penalty: 26.891617 accuracy: 0.9102564 Kmeans: 0.029179653
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5525753 penalty: 26.685257 accuracy: 0.88461536 Kmeans: 0.019014163
+accuracy on validation: 0.8717949
+
+Training circle: 20
+Train step 1 minibatch loss: 0.5502184 penalty: 26.657642 accuracy: 0.90384614 Kmeans: 0.01827579
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5771703 penalty: 26.87875 accuracy: 0.8525641 Kmeans: 0.02738515
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5529403 penalty: 26.749231 accuracy: 0.9230769 Kmeans: 0.019939946
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.55954784 penalty: 26.835297 accuracy: 0.9102564 Kmeans: 0.02252119
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5796317 penalty: 27.079622 accuracy: 0.84615386 Kmeans: 0.028960276
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.54594576 penalty: 26.762537 accuracy: 0.90384614 Kmeans: 0.018546654
+accuracy on validation: 0.8717949
+
+Training circle: 21
+Train step 1 minibatch loss: 0.5451673 penalty: 26.74024 accuracy: 0.9102564 Kmeans: 0.018150333
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5863541 penalty: 27.360285 accuracy: 0.8974359 Kmeans: 0.032037854
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.54349303 penalty: 26.913895 accuracy: 0.90384614 Kmeans: 0.018308809
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.57195413 penalty: 27.259066 accuracy: 0.85897434 Kmeans: 0.027544092
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5621278 penalty: 27.327938 accuracy: 0.9166667 Kmeans: 0.025203414
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5430559 penalty: 26.956387 accuracy: 0.9230769 Kmeans: 0.019216685
+accuracy on validation: 0.8717949
+
+Training circle: 22
+Train step 1 minibatch loss: 0.5418068 penalty: 27.014326 accuracy: 0.8974359 Kmeans: 0.01776035
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.54860055 penalty: 27.12787 accuracy: 0.9230769 Kmeans: 0.022172766
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.54313767 penalty: 27.154062 accuracy: 0.9230769 Kmeans: 0.020110011
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.5695527 penalty: 27.51004 accuracy: 0.86538464 Kmeans: 0.02821494
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.53677344 penalty: 27.215631 accuracy: 0.9230769 Kmeans: 0.01833171
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.55711263 penalty: 27.498707 accuracy: 0.9230769 Kmeans: 0.02529699
+accuracy on validation: 0.8717949
+
+Training circle: 23
+Train step 1 minibatch loss: 0.5453533 penalty: 27.573687 accuracy: 0.86538464 Kmeans: 0.017621864
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5448858 penalty: 27.676743 accuracy: 0.8717949 Kmeans: 0.018856399
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5406381 penalty: 27.431915 accuracy: 0.9230769 Kmeans: 0.021201888
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.5352576 penalty: 27.53996 accuracy: 0.8974359 Kmeans: 0.018776063
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5478248 penalty: 27.658918 accuracy: 0.89102566 Kmeans: 0.022950007
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5433691 penalty: 27.70335 accuracy: 0.92948717 Kmeans: 0.022393376
+accuracy on validation: 0.8717949
+
+Training circle: 24
+Train step 1 minibatch loss: 0.5326824 penalty: 27.659311 accuracy: 0.89102566 Kmeans: 0.017725974
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.54927325 penalty: 27.877974 accuracy: 0.8717949 Kmeans: 0.022355603
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.53229594 penalty: 27.605093 accuracy: 0.8974359 Kmeans: 0.018850092
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.54097456 penalty: 27.839504 accuracy: 0.92948717 Kmeans: 0.022620214
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.52985406 penalty: 27.728207 accuracy: 0.9230769 Kmeans: 0.019143041
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.5555039 penalty: 28.062866 accuracy: 0.8717949 Kmeans: 0.026836185
+accuracy on validation: 0.8717949
+
+Training circle: 25
+Train step 1 minibatch loss: 0.53679407 penalty: 28.0817 accuracy: 0.9102564 Kmeans: 0.018216128
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.55057085 penalty: 28.458652 accuracy: 0.8974359 Kmeans: 0.022540113
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5346184 penalty: 28.017176 accuracy: 0.8974359 Kmeans: 0.021714771
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.52988744 penalty: 28.05154 accuracy: 0.8974359 Kmeans: 0.019909082
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5266949 penalty: 28.171747 accuracy: 0.9358974 Kmeans: 0.019349365
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.52595717 penalty: 28.126377 accuracy: 0.9358974 Kmeans: 0.019375881
+accuracy on validation: 0.8717949
+
+Training circle: 26
+Train step 1 minibatch loss: 0.5237478 penalty: 28.16489 accuracy: 0.8974359 Kmeans: 0.017313149
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5222566 penalty: 28.180916 accuracy: 0.9166667 Kmeans: 0.018622505
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.54644656 penalty: 28.532228 accuracy: 0.9230769 Kmeans: 0.027031336
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.5226154 penalty: 28.479698 accuracy: 0.8974359 Kmeans: 0.018677006
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5244757 penalty: 28.389688 accuracy: 0.90384614 Kmeans: 0.019620657
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.53985876 penalty: 28.702955 accuracy: 0.9230769 Kmeans: 0.025054714
+accuracy on validation: 0.8717949
+
+Training circle: 27
+Train step 1 minibatch loss: 0.5227287 penalty: 28.636915 accuracy: 0.89102566 Kmeans: 0.017185088
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.53611267 penalty: 28.972626 accuracy: 0.8717949 Kmeans: 0.020767517
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5145736 penalty: 28.625591 accuracy: 0.9102564 Kmeans: 0.017506877
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.53256845 penalty: 28.993069 accuracy: 0.89102566 Kmeans: 0.022650825
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5128899 penalty: 28.844511 accuracy: 0.9166667 Kmeans: 0.017381819
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.53346527 penalty: 29.104795 accuracy: 0.9230769 Kmeans: 0.024270887
+accuracy on validation: 0.8717949
+
+Training circle: 28
+Train step 1 minibatch loss: 0.5227448 penalty: 29.198898 accuracy: 0.88461536 Kmeans: 0.017042628
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.5247134 penalty: 29.45621 accuracy: 0.88461536 Kmeans: 0.018335022
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.51350576 penalty: 29.233902 accuracy: 0.92948717 Kmeans: 0.01879448
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.52619916 penalty: 29.57082 accuracy: 0.89102566 Kmeans: 0.02149347
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.5093776 penalty: 29.38781 accuracy: 0.90384614 Kmeans: 0.017146198
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.53419596 penalty: 29.761393 accuracy: 0.92948717 Kmeans: 0.025553841
+accuracy on validation: 0.8717949
+
+Training circle: 29
+Train step 1 minibatch loss: 0.5184975 penalty: 29.805363 accuracy: 0.8717949 Kmeans: 0.016550776
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.51331556 penalty: 29.911777 accuracy: 0.8974359 Kmeans: 0.016761392
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5136923 penalty: 29.904371 accuracy: 0.9423077 Kmeans: 0.02016239
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.5049493 penalty: 29.93223 accuracy: 0.9102564 Kmeans: 0.01659953
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.5253545 penalty: 30.311262 accuracy: 0.89102566 Kmeans: 0.022296688
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.50598377 penalty: 30.292572 accuracy: 0.9358974 Kmeans: 0.017429598
+accuracy on validation: 0.8974359
+
+Training circle: 30
+Train step 1 minibatch loss: 0.50297993 penalty: 30.248482 accuracy: 0.9102564 Kmeans: 0.01615114
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.5164649 penalty: 30.337902 accuracy: 0.94871795 Kmeans: 0.021283332
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.5084659 penalty: 30.423145 accuracy: 0.8974359 Kmeans: 0.018105712
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.503857 penalty: 30.48012 accuracy: 0.9102564 Kmeans: 0.017161267
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.5275652 penalty: 30.773321 accuracy: 0.9358974 Kmeans: 0.025495967
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.5016226 penalty: 30.602184 accuracy: 0.9102564 Kmeans: 0.01697847
+accuracy on validation: 0.8974359
+
+Training circle: 31
+Train step 1 minibatch loss: 0.4979435 penalty: 30.549147 accuracy: 0.9423077 Kmeans: 0.016027335
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.5176615 penalty: 30.839594 accuracy: 0.90384614 Kmeans: 0.022320557
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.49905586 penalty: 30.684267 accuracy: 0.9102564 Kmeans: 0.01690518
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.52759093 penalty: 31.079592 accuracy: 0.9358974 Kmeans: 0.026296372
+accuracy on validation: 0.84615386
+Train step 80 minibatch loss: 0.50623286 penalty: 31.025566 accuracy: 0.8974359 Kmeans: 0.019246921
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.4959461 penalty: 30.863485 accuracy: 0.9102564 Kmeans: 0.016724216
+accuracy on validation: 0.8974359
+
+Training circle: 32
+Train step 1 minibatch loss: 0.4945036 penalty: 30.869122 accuracy: 0.9423077 Kmeans: 0.015963295
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.5266311 penalty: 31.24918 accuracy: 0.90384614 Kmeans: 0.02738666
+accuracy on validation: 0.84615386
+Train step 40 minibatch loss: 0.5208918 penalty: 31.328299 accuracy: 0.9358974 Kmeans: 0.024816599
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.49151632 penalty: 31.102854 accuracy: 0.92948717 Kmeans: 0.016141782
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.4975691 penalty: 31.158934 accuracy: 0.9102564 Kmeans: 0.017982472
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.52001494 penalty: 31.505209 accuracy: 0.9358974 Kmeans: 0.025662875
+accuracy on validation: 0.84615386
+
+Training circle: 33
+Train step 1 minibatch loss: 0.49953336 penalty: 31.46439 accuracy: 0.90384614 Kmeans: 0.015542217
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.49838758 penalty: 31.641329 accuracy: 0.9102564 Kmeans: 0.01603683
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.49332726 penalty: 31.48451 accuracy: 0.9551282 Kmeans: 0.018406184
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.48798606 penalty: 31.70467 accuracy: 0.9102564 Kmeans: 0.015606089
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.5031906 penalty: 31.943138 accuracy: 0.9102564 Kmeans: 0.019909771
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.49520904 penalty: 31.981369 accuracy: 0.9551282 Kmeans: 0.018833347
+accuracy on validation: 0.8717949
+
+Training circle: 34
+Train step 1 minibatch loss: 0.48705047 penalty: 31.97374 accuracy: 0.9166667 Kmeans: 0.015034805
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.4882377 penalty: 32.009216 accuracy: 0.9166667 Kmeans: 0.0155952675
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.4853832 penalty: 32.111042 accuracy: 0.96794873 Kmeans: 0.016267959
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.4997301 penalty: 32.33768 accuracy: 0.9551282 Kmeans: 0.021085557
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.49857286 penalty: 32.511734 accuracy: 0.9102564 Kmeans: 0.019635543
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.4812076 penalty: 32.29302 accuracy: 0.9423077 Kmeans: 0.015273539
+accuracy on validation: 0.8974359
+
+Training circle: 35
+Train step 1 minibatch loss: 0.4803449 penalty: 32.275818 accuracy: 0.96794873 Kmeans: 0.01494144
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.5019739 penalty: 32.693012 accuracy: 0.9102564 Kmeans: 0.022025384
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.51848453 penalty: 32.947365 accuracy: 0.92948717 Kmeans: 0.026937017
+accuracy on validation: 0.82051283
+Train step 60 minibatch loss: 0.4780806 penalty: 32.61092 accuracy: 0.9423077 Kmeans: 0.01496516
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.49453154 penalty: 32.880386 accuracy: 0.9102564 Kmeans: 0.019625958
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.50763613 penalty: 33.123695 accuracy: 0.9358974 Kmeans: 0.024862362
+accuracy on validation: 0.8717949
+
+Training circle: 36
+Train step 1 minibatch loss: 0.48669195 penalty: 33.06848 accuracy: 0.9102564 Kmeans: 0.014589782
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.48857093 penalty: 33.21586 accuracy: 0.9102564 Kmeans: 0.015611224
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.47872785 penalty: 33.01822 accuracy: 0.96794873 Kmeans: 0.016949821
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.48420185 penalty: 33.31735 accuracy: 0.9166667 Kmeans: 0.017017275
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.48063508 penalty: 33.236877 accuracy: 0.9166667 Kmeans: 0.016560566
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.4924744 penalty: 33.481678 accuracy: 0.94871795 Kmeans: 0.021382177
+accuracy on validation: 0.8717949
+
+Training circle: 37
+Train step 1 minibatch loss: 0.47945923 penalty: 33.45992 accuracy: 0.9166667 Kmeans: 0.014597618
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.50499415 penalty: 33.88807 accuracy: 0.8782051 Kmeans: 0.02046616
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.48827684 penalty: 33.739265 accuracy: 0.9102564 Kmeans: 0.018150557
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.47135496 penalty: 33.62708 accuracy: 0.96153843 Kmeans: 0.015180624
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.48740098 penalty: 33.831287 accuracy: 0.9551282 Kmeans: 0.020638565
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.4816864 penalty: 33.921043 accuracy: 0.92948717 Kmeans: 0.017787702
+accuracy on validation: 0.8974359
+
+Training circle: 38
+Train step 1 minibatch loss: 0.47097987 penalty: 33.86611 accuracy: 0.96153843 Kmeans: 0.014761868
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.47266248 penalty: 33.876724 accuracy: 0.96153843 Kmeans: 0.015531381
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.46827155 penalty: 33.85182 accuracy: 0.96153843 Kmeans: 0.015104306
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.4837612 penalty: 34.07558 accuracy: 0.92948717 Kmeans: 0.019433253
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.48249117 penalty: 34.20629 accuracy: 0.94871795 Kmeans: 0.020048937
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.4654084 penalty: 34.0635 accuracy: 0.96794873 Kmeans: 0.014998366
+accuracy on validation: 0.8974359
+
+Training circle: 39
+Train step 1 minibatch loss: 0.4651339 penalty: 34.026722 accuracy: 0.9551282 Kmeans: 0.014461789
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.48073363 penalty: 34.375984 accuracy: 0.92948717 Kmeans: 0.018610146
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.48319313 penalty: 34.55992 accuracy: 0.9230769 Kmeans: 0.019467989
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.47348246 penalty: 34.37525 accuracy: 0.9230769 Kmeans: 0.017173449
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.49744233 penalty: 34.685905 accuracy: 0.92948717 Kmeans: 0.025723806
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.46187964 penalty: 34.364033 accuracy: 0.96153843 Kmeans: 0.014823685
+accuracy on validation: 0.8974359
+
+Training circle: 40
+Train step 1 minibatch loss: 0.46073267 penalty: 34.35148 accuracy: 0.96794873 Kmeans: 0.0144467475
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.47725302 penalty: 34.616776 accuracy: 0.92948717 Kmeans: 0.019014329
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.4921648 penalty: 34.86013 accuracy: 0.92948717 Kmeans: 0.024650041
+accuracy on validation: 0.84615386
+Train step 60 minibatch loss: 0.4596477 penalty: 34.614006 accuracy: 0.96153843 Kmeans: 0.014677384
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.47173014 penalty: 34.74897 accuracy: 0.92948717 Kmeans: 0.01794287
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.49058136 penalty: 35.0306 accuracy: 0.92948717 Kmeans: 0.024745682
+accuracy on validation: 0.84615386
+
+Training circle: 41
+Train step 1 minibatch loss: 0.47068924 penalty: 34.998108 accuracy: 0.9166667 Kmeans: 0.014302208
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.46942115 penalty: 35.11954 accuracy: 0.92948717 Kmeans: 0.0149525115
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.46242583 penalty: 34.909588 accuracy: 0.96794873 Kmeans: 0.017470004
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.45845956 penalty: 35.076283 accuracy: 0.9551282 Kmeans: 0.014861956
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.47517812 penalty: 35.28729 accuracy: 0.92948717 Kmeans: 0.019178802
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.45976323 penalty: 35.18396 accuracy: 0.96153843 Kmeans: 0.01634664
+accuracy on validation: 0.8974359
+
+Training circle: 42
+Train step 1 minibatch loss: 0.4557817 penalty: 35.175316 accuracy: 0.96153843 Kmeans: 0.014393242
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.47133312 penalty: 35.348648 accuracy: 0.96153843 Kmeans: 0.020665606
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.45540094 penalty: 35.18551 accuracy: 0.96794873 Kmeans: 0.015447023
+accuracy on validation: 0.8974359
+Train step 60 minibatch loss: 0.4816733 penalty: 35.627296 accuracy: 0.9230769 Kmeans: 0.021753527
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.4610741 penalty: 35.553604 accuracy: 0.96153843 Kmeans: 0.017559158
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.4548199 penalty: 35.40031 accuracy: 0.96153843 Kmeans: 0.015838424
+accuracy on validation: 0.8974359
+
+Training circle: 43
+Train step 1 minibatch loss: 0.4542073 penalty: 35.443707 accuracy: 0.9551282 Kmeans: 0.01437876
+accuracy on validation: 0.8974359
+Train step 20 minibatch loss: 0.47600168 penalty: 35.72671 accuracy: 0.9551282 Kmeans: 0.023832196
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.46770388 penalty: 35.8699 accuracy: 0.92948717 Kmeans: 0.01818583
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.4518989 penalty: 35.65993 accuracy: 0.96153843 Kmeans: 0.014945701
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.4802351 penalty: 36.02405 accuracy: 0.9358974 Kmeans: 0.024341173
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.45865554 penalty: 35.944935 accuracy: 0.9358974 Kmeans: 0.0167734
+accuracy on validation: 0.8717949
+
+Training circle: 44
+Train step 1 minibatch loss: 0.44976702 penalty: 35.878254 accuracy: 0.96153843 Kmeans: 0.014490996
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.4483639 penalty: 35.802895 accuracy: 0.96794873 Kmeans: 0.014710877
+accuracy on validation: 0.8974359
+Train step 40 minibatch loss: 0.45589405 penalty: 35.933716 accuracy: 0.96153843 Kmeans: 0.017109748
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.45299646 penalty: 35.910065 accuracy: 0.96794873 Kmeans: 0.016387591
+accuracy on validation: 0.8974359
+Train step 80 minibatch loss: 0.47519904 penalty: 36.23507 accuracy: 0.9358974 Kmeans: 0.023409048
+accuracy on validation: 0.84615386
+Train step 100 minibatch loss: 0.45294905 penalty: 36.131084 accuracy: 0.9551282 Kmeans: 0.016439581
+accuracy on validation: 0.8717949
+
+Training circle: 45
+Train step 1 minibatch loss: 0.4457887 penalty: 36.097622 accuracy: 0.96153843 Kmeans: 0.014419461
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.4566934 penalty: 36.147266 accuracy: 0.96153843 Kmeans: 0.018549683
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.4539748 penalty: 36.1016 accuracy: 0.96153843 Kmeans: 0.017431766
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.4704152 penalty: 36.372566 accuracy: 0.9423077 Kmeans: 0.022453444
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.44430247 penalty: 36.18596 accuracy: 0.96794873 Kmeans: 0.014860615
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.44995296 penalty: 36.183533 accuracy: 0.974359 Kmeans: 0.016463276
+accuracy on validation: 0.8717949
+
+Training circle: 46
+Train step 1 minibatch loss: 0.44699633 penalty: 36.26403 accuracy: 0.96153843 Kmeans: 0.014465876
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.45044488 penalty: 36.185734 accuracy: 0.96794873 Kmeans: 0.01859132
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.46226144 penalty: 36.351574 accuracy: 0.9551282 Kmeans: 0.02161361
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.47057226 penalty: 36.5721 accuracy: 0.9423077 Kmeans: 0.022862485
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.43897763 penalty: 36.208786 accuracy: 0.96794873 Kmeans: 0.014446585
+accuracy on validation: 0.8974359
+Train step 100 minibatch loss: 0.4554663 penalty: 36.40742 accuracy: 0.94871795 Kmeans: 0.0188664
+accuracy on validation: 0.8717949
+
+Training circle: 47
+Train step 1 minibatch loss: 0.44885713 penalty: 36.494537 accuracy: 0.94871795 Kmeans: 0.01457929
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.44689155 penalty: 36.546127 accuracy: 0.9551282 Kmeans: 0.0150546795
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.43793407 penalty: 36.299976 accuracy: 0.96153843 Kmeans: 0.014441388
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.46292257 penalty: 36.529747 accuracy: 0.94871795 Kmeans: 0.022543754
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.44178003 penalty: 36.422527 accuracy: 0.96153843 Kmeans: 0.016005985
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.4369804 penalty: 36.302902 accuracy: 0.96794873 Kmeans: 0.014980604
+accuracy on validation: 0.8974359
+
+Training circle: 48
+Train step 1 minibatch loss: 0.43658403 penalty: 36.330837 accuracy: 0.9807692 Kmeans: 0.013957371
+accuracy on validation: 0.8717949
+Train step 20 minibatch loss: 0.46001473 penalty: 36.524174 accuracy: 0.9551282 Kmeans: 0.023595428
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.45102116 penalty: 36.645203 accuracy: 0.9551282 Kmeans: 0.017987015
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.4338852 penalty: 36.364105 accuracy: 0.96794873 Kmeans: 0.014480733
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.459911 penalty: 36.68748 accuracy: 0.94871795 Kmeans: 0.022476671
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.4667642 penalty: 36.82491 accuracy: 0.9358974 Kmeans: 0.02313457
+accuracy on validation: 0.84615386
+
+Training circle: 49
+Train step 1 minibatch loss: 0.4427125 penalty: 36.756077 accuracy: 0.94871795 Kmeans: 0.014490401
+accuracy on validation: 0.84615386
+Train step 20 minibatch loss: 0.48796535 penalty: 37.28458 accuracy: 0.92948717 Kmeans: 0.024279112
+accuracy on validation: 0.8717949
+Train step 40 minibatch loss: 0.4360188 penalty: 36.64196 accuracy: 0.96153843 Kmeans: 0.014713685
+accuracy on validation: 0.8717949
+Train step 60 minibatch loss: 0.43622562 penalty: 36.58316 accuracy: 0.96153843 Kmeans: 0.015519271
+accuracy on validation: 0.8717949
+Train step 80 minibatch loss: 0.43791276 penalty: 36.64569 accuracy: 0.9807692 Kmeans: 0.016526014
+accuracy on validation: 0.8717949
+Train step 100 minibatch loss: 0.42941177 penalty: 36.613808 accuracy: 0.96794873 Kmeans: 0.014317954
+accuracy on validation: 0.8717949
+Supervised-unsupervised training ends, visualize...
+Processing done!

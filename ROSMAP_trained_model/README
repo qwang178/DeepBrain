@@ -1,0 +1,3 @@
+DeepType: original DeepType clone
+IndexGenes: code to extract index genes
+UMAP: UMAP/SI calculation based on the hidden layer from DeepType
