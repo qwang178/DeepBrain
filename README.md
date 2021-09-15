@@ -26,3 +26,4 @@ MAYO -- SI calculation based on ROSMAP trained model for two brain regions (TCX 
 
 MSBB -- SI calculation based on ROSMAP trained model for four brain regions (FP(Brodmann area 10), IFG(Brodmann area 44), STG(Brodmann area 22), PHG(Brodmann area 36), syn8484987). Obtaining manifold representation by forward pass of the trained network, carrying out the UMAP transformation of the existing embedding model from ROSMAP to get the trajectory and SI.
 
+All the synapse data/results are withheld. 
