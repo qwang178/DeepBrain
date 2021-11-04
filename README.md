@@ -1,5 +1,5 @@
-![graphic_abstract](https://user-images.githubusercontent.com/81768870/140436245-d1feb830-0c34-4db2-9d26-24d1c3c06d28.png)
-![graphic_abstract_small](https://user-images.githubusercontent.com/81768870/140436348-168b5d5e-6d29-466c-95a9-44178aa6da46.png)
+![image](https://user-images.githubusercontent.com/81768870/140436410-d359dbde-b9d3-43e7-905b-ccbd84670f27.png)
+
 
 
 # DeepBrain
