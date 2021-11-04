@@ -1,4 +1,5 @@
-[graphic_abstract.pdf](https://github.com/qwang178/DeepBrain/files/7479528/graphic_abstract.pdf)
+![graphic_abstract](https://user-images.githubusercontent.com/81768870/140436245-d1feb830-0c34-4db2-9d26-24d1c3c06d28.png)
+
 
 # DeepBrain
 Deep learning framework for Alzheimer's disease severity index (SI) from brain transcriptomic data
