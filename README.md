@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/81768870/140436410-d359dbde-b9d3-43e7-905b-ccbd84670f27.png)
+
+[graphic_abstract.pdf](https://github.com/qwang178/DeepBrain/files/7643900/graphic_abstract.pdf)
 
 
 
